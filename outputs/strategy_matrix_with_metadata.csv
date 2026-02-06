@@ -1,0 +1,51 @@
+episode_id,year,woman_leader,prior_founder,prior_big_tech,ai_depth,ai_era,guest_role,company_at_time,career_leadership,data_ai,decision_making,discovery_innovation,founder_mode,growth,gtm,org_team,product_strategy
+aPM-1,2025,True,True,True,operational,post_ai,Head of Growth,Lovable,1,1,1,0,0,1,0,1,0
+aPM-10,2025,False,True,True,aware,post_ai,General Partner,Character,0,0,1,1,0,0,0,0,1
+aPM-11,2025,True,False,True,ai_native,post_ai,Executive in Residence,Thrive Capital,1,0,1,0,0,1,1,0,0
+aPM-12,2025,False,True,True,operational,post_ai,Chief Product Officer,N26,1,0,1,0,0,0,0,1,1
+aPM-13,2025,True,False,True,ai_native,post_ai,Chief Product Officer,Microsoft,1,1,1,1,0,0,0,0,1
+aPM-14,2025,False,True,False,operational,post_ai,Head of Retail Product,Revolut,1,0,1,1,0,0,0,1,1
+aPM-15,2025,False,True,False,ai_native,post_ai,Co-Founder,Lovable,1,1,1,1,1,1,0,1,1
+aPM-16,2025,False,True,True,operational,post_ai,Chief Executive Officer,Wordpress,1,1,1,0,1,0,0,1,0
+aPM-17,2025,False,True,True,none,post_ai,Founder,Pontera,0,0,1,0,1,0,0,0,0
+aPM-18,2025,True,True,True,ai_native,post_ai,Angel Investor,Stealth Startup,1,1,0,1,0,0,0,0,0
+aPM-19,2025,False,True,True,aware,post_ai,Chief Product Officer,VRChat Inc.,0,0,1,0,0,0,0,0,1
+aPM-2,2025,True,True,True,ai_native,post_ai,Chief Executive Officer,World Labs,1,1,1,1,1,0,0,0,0
+aPM-20,2025,True,True,True,aware,post_ai,Head of Growth,Lovable,0,0,1,0,0,1,0,1,0
+aPM-21,2024,False,False,True,ai_native,post_ai,Chief Product Officer,Confluent,1,1,1,0,0,1,0,0,1
+aPM-22,2024,False,False,False,operational,post_ai,Director of Product Management,Duolingo,0,0,1,1,0,1,0,0,1
+aPM-23,2024,True,True,False,none,post_ai,General Manager,State Affairs,0,0,1,0,1,1,1,0,0
+aPM-24,2024,False,True,True,ai_native,post_ai,Chief Executive Officer,Replit,1,1,0,1,1,0,0,0,1
+aPM-25,2024,True,False,True,aware,transition,Chief Marketing Officer,Wiz,1,0,1,1,0,1,1,0,1
+aPM-26,2024,False,True,True,none,transition,Founder,High Leverage Labs,1,0,1,0,0,0,0,0,0
+aPM-27,2024,True,False,True,none,transition,Head of Product,Meta,1,0,1,0,0,1,0,1,1
+aPM-28,2024,True,False,True,none,transition,Board Member,Intuit,1,0,1,1,0,0,0,0,1
+aPM-29,2024,False,True,False,none,transition,Founder,Roger L. Martin,0,0,1,0,0,0,0,0,1
+aPM-3,2025,True,True,False,operational,post_ai,Chief Executive Officer,Canva,1,0,1,1,1,0,0,0,1
+aPM-30,2025,True,True,False,operational,post_ai,Chief Analytics Officer,DoorDash,0,1,1,0,0,0,0,1,0
+aPM-31,2024,False,True,True,none,transition,Product Lead,Stripe,1,0,1,1,0,1,0,0,1
+aPM-32,2024,False,False,True,ai_native,transition,Head of Product,Anthropic,1,0,1,0,0,0,0,1,1
+aPM-33,2024,False,False,True,none,transition,Chief Product Officer,Nubank,0,0,1,1,0,1,1,0,1
+aPM-34,2024,False,True,False,none,transition,Chief Investment Officer,Strategy Capital,0,0,1,0,0,0,0,0,1
+aPM-35,2024,True,True,False,none,transition,Special Partner,First Round Capital,0,0,1,0,0,0,0,0,0
+aPM-36,2024,True,True,True,none,transition,Founder,Design Nation,0,0,1,1,0,0,0,1,1
+aPM-37,2024,False,True,True,none,transition,Partner,First Round Capital,0,0,1,1,1,1,0,0,1
+aPM-38,2024,True,False,False,ai_native,transition,Chief Technology Officer,Netflix,1,1,1,0,0,0,0,1,0
+aPM-39,2024,True,False,True,aware,transition,Head of Product,Canva,0,0,1,1,0,0,0,1,1
+aPM-4,2025,False,True,True,operational,post_ai,Chief Technology Officer,Block,0,1,1,0,0,0,0,1,0
+aPM-40,2024,False,False,False,none,transition,President,General Imagination,0,0,1,0,0,0,0,0,1
+aPM-41,2024,False,True,True,aware,transition,Chief Vice-President,Microsoft,1,0,0,1,1,0,0,0,0
+aPM-42,2024,False,True,True,aware,transition,Chief Technology Officer,Imprint,1,0,1,0,0,0,0,1,1
+aPM-43,2023,False,True,False,none,pre_ai,Partner,Silicon Valley Product Group,1,0,1,1,0,0,0,0,0
+aPM-44,2023,True,True,True,none,pre_ai,Sr. Director of Product,Google,1,0,1,0,0,0,0,1,1
+aPM-45,2023,True,False,True,operational,pre_ai,Chief Product Officer,Twilio,0,1,1,1,0,0,0,0,0
+aPM-46,2023,False,False,True,none,pre_ai,Chief Executive Officer,Sonos,1,0,1,0,1,0,0,0,1
+aPM-47,2023,True,True,False,none,pre_ai,Founder,Product Institute,0,0,1,0,0,0,0,1,1
+aPM-48,2023,False,False,True,none,pre_ai,Advisor,Boam,0,1,1,0,0,1,0,0,1
+aPM-49,2023,True,False,True,none,pre_ai,VP of Product,Toast,1,0,1,0,0,0,0,0,1
+aPM-5,2025,True,True,True,ai_native,post_ai,Researcher,Stealth Startup,0,1,1,1,0,0,0,0,1
+aPM-50,2023,True,True,True,none,pre_ai,Chief Marketing Officer,Outsmart,1,0,1,0,0,1,1,0,0
+aPM-6,2025,False,True,True,ai_native,post_ai,VP of Product,Google,1,1,1,1,0,1,0,0,1
+aPM-7,2025,True,False,True,operational,post_ai,Visiting Student Researcher,Google,0,1,1,1,0,0,0,0,1
+aPM-8,2025,False,False,False,operational,post_ai,General Partner,49 Palms Ventures,0,0,1,0,1,1,1,0,1
+aPM-9,2025,False,True,True,ai_native,post_ai,Member of Technical Staff,Anthropic,1,1,1,0,1,0,0,0,1

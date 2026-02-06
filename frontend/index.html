@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domain Constellations</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Force-Graph (UMD build) -->
+    <script src="https://unpkg.com/force-graph"></script>
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="title">Anto’s Product Brain V1</div>
+        <div class="subtitle">Insights curated and distilled from Lenny’s Podcast</div>
+      </div>
+
+      <div class="controls">
+        <label for="dataset">View</label>
+        <select id="dataset">
+          <option value="./data/domain_constellation.json">All episodes</option>
+          <option value="./data/domain_constellation_pre_ai.json">Pre-AI era</option>
+          <option value="./data/domain_constellation_transition.json">AI transition</option>
+          <option value="./data/domain_constellation_post_ai.json">Post-AI era</option>
+        </select>
+
+
+        <label for="minWeight">Signal strength</label>
+        <input id="minWeight" type="range" min="1" max="50" value="1" />
+        <span id="minWeightValue">1</span>
+      </div>
+    </header>
+
+
+    <main class="layout">
+      <div id="graph"></div>
+
+      <aside class="panel">
+        <div class="panel-title">Details</div>
+        <div id="details" class="details">
+          Hover a node or edge to see details.
+        </div>
+        <div class="hint">
+          Tips: drag nodes, scroll to zoom, click background to reset selection.
+        </div>
+      </aside>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

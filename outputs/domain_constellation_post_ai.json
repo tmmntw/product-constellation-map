@@ -1,0 +1,217 @@
+{
+  "ai_era": "post_ai",
+  "nodes": [
+    {
+      "id": "product_strategy",
+      "label": "Product Strategy",
+      "size": 15
+    },
+    {
+      "id": "growth",
+      "label": "Growth",
+      "size": 9
+    },
+    {
+      "id": "decision_making",
+      "label": "Decision Making",
+      "size": 23
+    },
+    {
+      "id": "discovery_innovation",
+      "label": "Discovery Innovation",
+      "size": 12
+    },
+    {
+      "id": "career_leadership",
+      "label": "Career Leadership",
+      "size": 14
+    },
+    {
+      "id": "gtm",
+      "label": "Gtm",
+      "size": 3
+    },
+    {
+      "id": "data_ai",
+      "label": "Data Ai",
+      "size": 14
+    },
+    {
+      "id": "org_team",
+      "label": "Org Team",
+      "size": 8
+    },
+    {
+      "id": "founder_mode",
+      "label": "Founder Mode",
+      "size": 9
+    }
+  ],
+  "edges": [
+    {
+      "source": "product_strategy",
+      "target": "growth",
+      "weight": 5
+    },
+    {
+      "source": "product_strategy",
+      "target": "decision_making",
+      "weight": 14
+    },
+    {
+      "source": "product_strategy",
+      "target": "discovery_innovation",
+      "weight": 10
+    },
+    {
+      "source": "product_strategy",
+      "target": "career_leadership",
+      "weight": 9
+    },
+    {
+      "source": "product_strategy",
+      "target": "gtm",
+      "weight": 1
+    },
+    {
+      "source": "product_strategy",
+      "target": "data_ai",
+      "weight": 8
+    },
+    {
+      "source": "product_strategy",
+      "target": "org_team",
+      "weight": 3
+    },
+    {
+      "source": "product_strategy",
+      "target": "founder_mode",
+      "weight": 5
+    },
+    {
+      "source": "growth",
+      "target": "decision_making",
+      "weight": 9
+    },
+    {
+      "source": "growth",
+      "target": "discovery_innovation",
+      "weight": 3
+    },
+    {
+      "source": "growth",
+      "target": "career_leadership",
+      "weight": 5
+    },
+    {
+      "source": "growth",
+      "target": "gtm",
+      "weight": 3
+    },
+    {
+      "source": "growth",
+      "target": "data_ai",
+      "weight": 4
+    },
+    {
+      "source": "growth",
+      "target": "org_team",
+      "weight": 3
+    },
+    {
+      "source": "growth",
+      "target": "founder_mode",
+      "weight": 3
+    },
+    {
+      "source": "decision_making",
+      "target": "discovery_innovation",
+      "weight": 10
+    },
+    {
+      "source": "decision_making",
+      "target": "career_leadership",
+      "weight": 12
+    },
+    {
+      "source": "decision_making",
+      "target": "gtm",
+      "weight": 3
+    },
+    {
+      "source": "decision_making",
+      "target": "data_ai",
+      "weight": 12
+    },
+    {
+      "source": "decision_making",
+      "target": "org_team",
+      "weight": 8
+    },
+    {
+      "source": "decision_making",
+      "target": "founder_mode",
+      "weight": 8
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "career_leadership",
+      "weight": 8
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "data_ai",
+      "weight": 8
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "org_team",
+      "weight": 2
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "founder_mode",
+      "weight": 4
+    },
+    {
+      "source": "career_leadership",
+      "target": "gtm",
+      "weight": 1
+    },
+    {
+      "source": "career_leadership",
+      "target": "data_ai",
+      "weight": 10
+    },
+    {
+      "source": "career_leadership",
+      "target": "org_team",
+      "weight": 5
+    },
+    {
+      "source": "career_leadership",
+      "target": "founder_mode",
+      "weight": 6
+    },
+    {
+      "source": "gtm",
+      "target": "founder_mode",
+      "weight": 2
+    },
+    {
+      "source": "data_ai",
+      "target": "org_team",
+      "weight": 5
+    },
+    {
+      "source": "data_ai",
+      "target": "founder_mode",
+      "weight": 5
+    },
+    {
+      "source": "org_team",
+      "target": "founder_mode",
+      "weight": 2
+    }
+  ]
+}

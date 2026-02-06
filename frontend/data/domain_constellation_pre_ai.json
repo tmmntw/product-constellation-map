@@ -1,0 +1,157 @@
+{
+  "ai_era": "pre_ai",
+  "nodes": [
+    {
+      "id": "product_strategy",
+      "label": "Product Strategy",
+      "size": 5
+    },
+    {
+      "id": "growth",
+      "label": "Growth",
+      "size": 2
+    },
+    {
+      "id": "decision_making",
+      "label": "Decision Making",
+      "size": 8
+    },
+    {
+      "id": "discovery_innovation",
+      "label": "Discovery Innovation",
+      "size": 2
+    },
+    {
+      "id": "career_leadership",
+      "label": "Career Leadership",
+      "size": 5
+    },
+    {
+      "id": "gtm",
+      "label": "Gtm",
+      "size": 1
+    },
+    {
+      "id": "data_ai",
+      "label": "Data Ai",
+      "size": 2
+    },
+    {
+      "id": "org_team",
+      "label": "Org Team",
+      "size": 2
+    },
+    {
+      "id": "founder_mode",
+      "label": "Founder Mode",
+      "size": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "product_strategy",
+      "target": "growth",
+      "weight": 1
+    },
+    {
+      "source": "product_strategy",
+      "target": "decision_making",
+      "weight": 5
+    },
+    {
+      "source": "product_strategy",
+      "target": "career_leadership",
+      "weight": 3
+    },
+    {
+      "source": "product_strategy",
+      "target": "data_ai",
+      "weight": 1
+    },
+    {
+      "source": "product_strategy",
+      "target": "org_team",
+      "weight": 2
+    },
+    {
+      "source": "product_strategy",
+      "target": "founder_mode",
+      "weight": 1
+    },
+    {
+      "source": "growth",
+      "target": "decision_making",
+      "weight": 2
+    },
+    {
+      "source": "growth",
+      "target": "career_leadership",
+      "weight": 1
+    },
+    {
+      "source": "growth",
+      "target": "gtm",
+      "weight": 1
+    },
+    {
+      "source": "growth",
+      "target": "data_ai",
+      "weight": 1
+    },
+    {
+      "source": "decision_making",
+      "target": "discovery_innovation",
+      "weight": 2
+    },
+    {
+      "source": "decision_making",
+      "target": "career_leadership",
+      "weight": 5
+    },
+    {
+      "source": "decision_making",
+      "target": "gtm",
+      "weight": 1
+    },
+    {
+      "source": "decision_making",
+      "target": "data_ai",
+      "weight": 2
+    },
+    {
+      "source": "decision_making",
+      "target": "org_team",
+      "weight": 2
+    },
+    {
+      "source": "decision_making",
+      "target": "founder_mode",
+      "weight": 1
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "career_leadership",
+      "weight": 1
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "data_ai",
+      "weight": 1
+    },
+    {
+      "source": "career_leadership",
+      "target": "gtm",
+      "weight": 1
+    },
+    {
+      "source": "career_leadership",
+      "target": "org_team",
+      "weight": 1
+    },
+    {
+      "source": "career_leadership",
+      "target": "founder_mode",
+      "weight": 1
+    }
+  ]
+}

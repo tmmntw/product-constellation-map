@@ -1,0 +1,861 @@
+{
+  "nodes": [
+    {
+      "id": "year",
+      "label": "Year",
+      "size": 101213
+    },
+    {
+      "id": "woman_leader",
+      "label": "Woman Leader",
+      "size": 23
+    },
+    {
+      "id": "prior_founder",
+      "label": "Prior Founder",
+      "size": 32
+    },
+    {
+      "id": "prior_big_tech",
+      "label": "Prior Big Tech",
+      "size": 36
+    },
+    {
+      "id": "ai_depth",
+      "label": "Ai Depth",
+      "size": 0
+    },
+    {
+      "id": "ai_era",
+      "label": "Ai Era",
+      "size": 0
+    },
+    {
+      "id": "guest_role",
+      "label": "Guest Role",
+      "size": 0
+    },
+    {
+      "id": "company_at_time",
+      "label": "Company At Time",
+      "size": 0
+    },
+    {
+      "id": "career_leadership",
+      "label": "Career & Leadership Growth",
+      "size": 28
+    },
+    {
+      "id": "data_ai",
+      "label": "AI & Data",
+      "size": 17
+    },
+    {
+      "id": "decision_making",
+      "label": "Decision Making",
+      "size": 47
+    },
+    {
+      "id": "discovery_innovation",
+      "label": "Discovery & Innovation",
+      "size": 22
+    },
+    {
+      "id": "founder_mode",
+      "label": "Founder Mode",
+      "size": 12
+    },
+    {
+      "id": "growth",
+      "label": "Growth",
+      "size": 16
+    },
+    {
+      "id": "gtm",
+      "label": "Go-to-Market",
+      "size": 6
+    },
+    {
+      "id": "org_team",
+      "label": "Org Design & Team Dynamics",
+      "size": 16
+    },
+    {
+      "id": "product_strategy",
+      "label": "Product Strategy",
+      "size": 33
+    },
+    {
+      "id": "career_stage",
+      "label": "Career Stage",
+      "size": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "year",
+      "target": "woman_leader",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "prior_founder",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "prior_big_tech",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "ai_depth",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "ai_era",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "guest_role",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "career_leadership",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "data_ai",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "decision_making",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "discovery_innovation",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "founder_mode",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "growth",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "gtm",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "org_team",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "product_strategy",
+      "weight": 0
+    },
+    {
+      "source": "year",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "woman_leader",
+      "target": "prior_founder",
+      "weight": 13
+    },
+    {
+      "source": "woman_leader",
+      "target": "prior_big_tech",
+      "weight": 17
+    },
+    {
+      "source": "woman_leader",
+      "target": "ai_depth",
+      "weight": 0
+    },
+    {
+      "source": "woman_leader",
+      "target": "ai_era",
+      "weight": 0
+    },
+    {
+      "source": "woman_leader",
+      "target": "guest_role",
+      "weight": 0
+    },
+    {
+      "source": "woman_leader",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "woman_leader",
+      "target": "career_leadership",
+      "weight": 13
+    },
+    {
+      "source": "woman_leader",
+      "target": "data_ai",
+      "weight": 9
+    },
+    {
+      "source": "woman_leader",
+      "target": "decision_making",
+      "weight": 22
+    },
+    {
+      "source": "woman_leader",
+      "target": "discovery_innovation",
+      "weight": 11
+    },
+    {
+      "source": "woman_leader",
+      "target": "founder_mode",
+      "weight": 3
+    },
+    {
+      "source": "woman_leader",
+      "target": "growth",
+      "weight": 7
+    },
+    {
+      "source": "woman_leader",
+      "target": "gtm",
+      "weight": 4
+    },
+    {
+      "source": "woman_leader",
+      "target": "org_team",
+      "weight": 9
+    },
+    {
+      "source": "woman_leader",
+      "target": "product_strategy",
+      "weight": 12
+    },
+    {
+      "source": "woman_leader",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "prior_founder",
+      "target": "prior_big_tech",
+      "weight": 22
+    },
+    {
+      "source": "prior_founder",
+      "target": "ai_depth",
+      "weight": 0
+    },
+    {
+      "source": "prior_founder",
+      "target": "ai_era",
+      "weight": 0
+    },
+    {
+      "source": "prior_founder",
+      "target": "guest_role",
+      "weight": 0
+    },
+    {
+      "source": "prior_founder",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "prior_founder",
+      "target": "career_leadership",
+      "weight": 18
+    },
+    {
+      "source": "prior_founder",
+      "target": "data_ai",
+      "weight": 11
+    },
+    {
+      "source": "prior_founder",
+      "target": "decision_making",
+      "weight": 29
+    },
+    {
+      "source": "prior_founder",
+      "target": "discovery_innovation",
+      "weight": 14
+    },
+    {
+      "source": "prior_founder",
+      "target": "founder_mode",
+      "weight": 10
+    },
+    {
+      "source": "prior_founder",
+      "target": "growth",
+      "weight": 8
+    },
+    {
+      "source": "prior_founder",
+      "target": "gtm",
+      "weight": 2
+    },
+    {
+      "source": "prior_founder",
+      "target": "org_team",
+      "weight": 12
+    },
+    {
+      "source": "prior_founder",
+      "target": "product_strategy",
+      "weight": 18
+    },
+    {
+      "source": "prior_founder",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "ai_depth",
+      "weight": 0
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "ai_era",
+      "weight": 0
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "guest_role",
+      "weight": 0
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "career_leadership",
+      "weight": 23
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "data_ai",
+      "weight": 14
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "decision_making",
+      "weight": 33
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "discovery_innovation",
+      "weight": 17
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "founder_mode",
+      "weight": 8
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "growth",
+      "weight": 12
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "gtm",
+      "weight": 4
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "org_team",
+      "weight": 11
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "product_strategy",
+      "weight": 24
+    },
+    {
+      "source": "prior_big_tech",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "ai_era",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "guest_role",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "career_leadership",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "data_ai",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "decision_making",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "discovery_innovation",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "founder_mode",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "growth",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "gtm",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "org_team",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "product_strategy",
+      "weight": 0
+    },
+    {
+      "source": "ai_depth",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "guest_role",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "career_leadership",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "data_ai",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "decision_making",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "discovery_innovation",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "founder_mode",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "growth",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "gtm",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "org_team",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "product_strategy",
+      "weight": 0
+    },
+    {
+      "source": "ai_era",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "company_at_time",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "career_leadership",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "data_ai",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "decision_making",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "discovery_innovation",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "founder_mode",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "growth",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "gtm",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "org_team",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "product_strategy",
+      "weight": 0
+    },
+    {
+      "source": "guest_role",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "career_leadership",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "data_ai",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "decision_making",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "discovery_innovation",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "founder_mode",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "growth",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "gtm",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "org_team",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "product_strategy",
+      "weight": 0
+    },
+    {
+      "source": "company_at_time",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "career_leadership",
+      "target": "data_ai",
+      "weight": 11
+    },
+    {
+      "source": "career_leadership",
+      "target": "decision_making",
+      "weight": 25
+    },
+    {
+      "source": "career_leadership",
+      "target": "discovery_innovation",
+      "weight": 13
+    },
+    {
+      "source": "career_leadership",
+      "target": "founder_mode",
+      "weight": 8
+    },
+    {
+      "source": "career_leadership",
+      "target": "growth",
+      "weight": 9
+    },
+    {
+      "source": "career_leadership",
+      "target": "gtm",
+      "weight": 3
+    },
+    {
+      "source": "career_leadership",
+      "target": "org_team",
+      "weight": 10
+    },
+    {
+      "source": "career_leadership",
+      "target": "product_strategy",
+      "weight": 18
+    },
+    {
+      "source": "career_leadership",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "data_ai",
+      "target": "decision_making",
+      "weight": 15
+    },
+    {
+      "source": "data_ai",
+      "target": "discovery_innovation",
+      "weight": 9
+    },
+    {
+      "source": "data_ai",
+      "target": "founder_mode",
+      "weight": 5
+    },
+    {
+      "source": "data_ai",
+      "target": "growth",
+      "weight": 5
+    },
+    {
+      "source": "data_ai",
+      "target": "gtm",
+      "weight": 0
+    },
+    {
+      "source": "data_ai",
+      "target": "org_team",
+      "weight": 6
+    },
+    {
+      "source": "data_ai",
+      "target": "product_strategy",
+      "weight": 9
+    },
+    {
+      "source": "data_ai",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "decision_making",
+      "target": "discovery_innovation",
+      "weight": 19
+    },
+    {
+      "source": "decision_making",
+      "target": "founder_mode",
+      "weight": 10
+    },
+    {
+      "source": "decision_making",
+      "target": "growth",
+      "weight": 16
+    },
+    {
+      "source": "decision_making",
+      "target": "gtm",
+      "weight": 6
+    },
+    {
+      "source": "decision_making",
+      "target": "org_team",
+      "weight": 16
+    },
+    {
+      "source": "decision_making",
+      "target": "product_strategy",
+      "weight": 32
+    },
+    {
+      "source": "decision_making",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "founder_mode",
+      "weight": 6
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "growth",
+      "weight": 7
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "gtm",
+      "weight": 2
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "org_team",
+      "weight": 4
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "product_strategy",
+      "weight": 17
+    },
+    {
+      "source": "discovery_innovation",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "founder_mode",
+      "target": "growth",
+      "weight": 4
+    },
+    {
+      "source": "founder_mode",
+      "target": "gtm",
+      "weight": 2
+    },
+    {
+      "source": "founder_mode",
+      "target": "org_team",
+      "weight": 2
+    },
+    {
+      "source": "founder_mode",
+      "target": "product_strategy",
+      "weight": 7
+    },
+    {
+      "source": "founder_mode",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "growth",
+      "target": "gtm",
+      "weight": 6
+    },
+    {
+      "source": "growth",
+      "target": "org_team",
+      "weight": 4
+    },
+    {
+      "source": "growth",
+      "target": "product_strategy",
+      "weight": 11
+    },
+    {
+      "source": "growth",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "gtm",
+      "target": "org_team",
+      "weight": 0
+    },
+    {
+      "source": "gtm",
+      "target": "product_strategy",
+      "weight": 3
+    },
+    {
+      "source": "gtm",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "org_team",
+      "target": "product_strategy",
+      "weight": 10
+    },
+    {
+      "source": "org_team",
+      "target": "career_stage",
+      "weight": 0
+    },
+    {
+      "source": "product_strategy",
+      "target": "career_stage",
+      "weight": 0
+    }
+  ]
+}
