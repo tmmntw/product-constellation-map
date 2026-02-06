@@ -30,14 +30,28 @@ Preferred communication style: Simple, everyday language.
 - Boolean normalization handles common spreadsheet variations (true/false, yes/no, 1/0, t/f, y/n)
 - UTF-8 with BOM handling for Google Sheets compatibility
 
+### Frontend (Domain Constellation Viewer)
+
+A browser-based interactive force graph visualization showing domain co-occurrences across podcast episodes. Built with the ForceGraph library, served via a simple Python HTTP server (`server.py`) on port 5000.
+
 ### File Structure
 
 ```
-├── main.py                              # Main processing script
+├── server.py                            # HTTP server serving frontend on port 5000
+├── main.py                              # Data processing script
 ├── Wide_EPISODES METADATA_Anthropic.csv # Input file (Google Sheets export)
 ├── episodes.csv                         # Output: episode metadata
 ├── episode_domains.csv                  # Output: domain associations
-└── transcripts/                         # Raw podcast transcript files
+├── frontend/                            # Web frontend
+│   ├── index.html                       # Main HTML page
+│   ├── app.js                           # Force graph visualization logic
+│   ├── style.css                        # Styling
+│   └── data/                            # JSON datasets for the graph
+│       ├── domain_constellation.json
+│       ├── domain_constellation_pre_ai.json
+│       ├── domain_constellation_transition.json
+│       └── domain_constellation_post_ai.json
+└── transcripts/                         # Raw podcast transcript files (50 episodes)
     └── aPM-*.txt                        # Individual episode transcripts
 ```
 
