@@ -1,4 +1,4 @@
-entrypoint = "main.py"
+entrypoint = "scripts/server.py"
 modules = ["python-3.11"]
 
 [nix]
@@ -12,7 +12,7 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
+run = ["python3", "scripts/server.py"]
 deploymentTarget = "cloudrun"
 
 [agent]
@@ -23,7 +23,7 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
-localPort = 8000
+localPort = 5000
 externalPort = 80
 
 [workflows]
@@ -44,7 +44,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 server.py"
+args = "python3 scripts/server.py"
 waitForPort = 5000
 
 [workflows.workflow.metadata]

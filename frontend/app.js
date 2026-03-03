@@ -8,31 +8,36 @@ let rawData = null;
 let fg = null;
 let currentMaxWeight = 1;
 
-const NODE_COLORS = [
-  "#e06c75", "#e5c07b", "#61afef", "#c678dd", "#56b6c2",
-  "#98c379", "#d19a66", "#be5046", "#7ec8e3", "#c8a2c8",
-  "#f0e68c", "#ff8c69", "#87ceeb", "#dda0dd", "#90ee90",
-  "#ffa07a", "#20b2aa", "#b0c4de"
-];
+const COLORS = {
+  periwinkle: "#6f7cff",
+  aqua: "#2bffc2",
+  slate: "#2a2e35",
+  text: "#e6eaf0"
+};
 
 function setDetails(text) {
   detailsEl.textContent = text;
 }
 
 function getNodeColor(node) {
-  if (node.__colorIdx === undefined) return NODE_COLORS[0];
-  return NODE_COLORS[node.__colorIdx % NODE_COLORS.length];
+  // Bigger nodes skew aqua, smaller nodes skew periwinkle
+  const s = node.size || 1;
+  return s >= 20 ? COLORS.aqua : COLORS.periwinkle;
 }
 
 function linkColorFn(l) {
   const strength = (l.weight || 1) / currentMaxWeight;
-  const alpha = Math.max(0.12, 0.08 + strength * 0.35);
-  return `rgba(150, 180, 220, ${alpha})`;
+
+  // stronger edges get brighter + more color
+  if (strength > 0.65) return `rgba(43, 255, 194, ${0.15 + strength * 0.55})`;     // aqua glow
+  if (strength > 0.35) return `rgba(111, 124, 255, ${0.12 + strength * 0.45})`;   // periwinkle glow
+  return `rgba(160, 170, 190, ${0.10 + strength * 0.20})`;                         // slate haze
 }
+
 
 function linkWidthFn(l) {
   const strength = (l.weight || 1) / currentMaxWeight;
-  return Math.max(0.5, strength * 4);
+  return Math.max(0.6, strength * 5);
 }
 
 async function loadJSON(path) {
@@ -85,32 +90,53 @@ function initGraph(data) {
     .width(width)
     .height(height)
     .graphData(data)
-    .backgroundColor("#0b0d10")
+    .backgroundColor("rgba(0,0,0,0)")
     .nodeId("id")
     .nodeLabel(n => `${n.label} (${n.size})`)
     .nodeVal(n => Math.max(5, (n.size || 1) * 1.2))
     .nodeCanvasObjectMode(() => "replace")
     .nodeCanvasObject((node, ctx, globalScale) => {
-      const r = Math.sqrt(Math.max(5, (node.size || 1) * 1.2)) * 2.5;
+      const base = Math.max(6, (node.size || 1) * 0.9);
+      const r = Math.sqrt(base) * 2.6;
       const color = getNodeColor(node);
 
+      // Outer glow
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, r * 2.0, 0, 2 * Math.PI);
+      ctx.fillStyle = color === COLORS.aqua
+        ? "rgba(43, 255, 194, 0.10)"
+        : "rgba(111, 124, 255, 0.10)";
+      ctx.fill();
+
+      // Inner glow ring
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, r * 1.35, 0, 2 * Math.PI);
+      ctx.fillStyle = color === COLORS.aqua
+        ? "rgba(43, 255, 194, 0.12)"
+        : "rgba(111, 124, 255, 0.12)";
+      ctx.fill();
+
+      // Core node
       ctx.beginPath();
       ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
       ctx.fillStyle = color;
       ctx.fill();
 
-      ctx.strokeStyle = "rgba(255,255,255,0.3)";
+      // Subtle outline
+      ctx.strokeStyle = "rgba(255,255,255,0.18)";
       ctx.lineWidth = 1;
       ctx.stroke();
 
+      // Label
       const label = node.label || node.id;
-      const fontSize = Math.max(10, 12 / globalScale);
-      ctx.font = `600 ${fontSize}px Sans-Serif`;
+      const fontSize = Math.max(11, 12 / globalScale);
+      ctx.font = `600 ${fontSize}px "Space Grotesk", Inter, sans-serif`;
       ctx.textAlign = "center";
       ctx.textBaseline = "top";
-      ctx.fillStyle = "#e6eaf0";
-      ctx.fillText(label, node.x, node.y + r + 4);
+      ctx.fillStyle = COLORS.text;
+      ctx.fillText(label, node.x, node.y + r + 6);
     })
+
     .linkColor(linkColorFn)
     .linkWidth(linkWidthFn)
     .linkLabel(l => `Co-occurrence: ${l.weight}`)
